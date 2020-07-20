@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>photo_style_two</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <!-- modernizr enables HTML5 elements and feature detects -->
+  <script type="text/javascript" src="js/modernizr-1.5.min.js">
+  </script>
+</head>
+
+<body>
+  <div id="main">
+    <header>
+      <div id="logo">
+        <div id="logo_text">
+          <!-- class="logo_colour", allows you to change the colour of the text -->
+          <h1><a href="index.html">Burgos<span class="logo_colour">_Veterinaria</span></a></h1>
+          <h2>Salud, Cuidado y Felicidad .</h2>
+        </div>
+      </div>
+      <nav>
+        <ul class="sf-menu" id="nav">
+          <li><a href="index.html">Inicio</a></li>
+        </ul>
+      </nav>
+    </header>
+    <center>
+		<p>
+  <form name="formulario" method="POST" onSubmit='return Connprobacion()' action="index.php">
+ <h3>Introdusca su Usuario y Contraseña</h3>
+ <table>
+ <tr>
+ <td><label for="user">Usuario: </label></td> 
+ <td><input type="text" name="user" ></td> 
+ </tr>
+ <tr>
+ <td><label for="pass">Contraseña: </label></td>
+ <td><input type="password" name="pass"></td>
+ </tr>
+ <tr>
+ <td colspan="2"><center><input type="submit" value="Ingresar"></center></td>
+ </tr>
+ </table>
+ </form>
+   </p>
+   </center>
+    <footer>
+      <p>Copyright &copy; Burgos_Veterinaria | <a href="www.alsw.net">ALSW</a></p>
+    </footer>
+  </div>
+  <p>&nbsp;</p>
+  <!-- javascript at the bottom for fast page loading -->
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/jquery.easing-sooper.js"></script>
+  <script type="text/javascript" src="js/jquery.sooperfish.js"></script>
+  <script type="text/javascript" src="js/image_fade.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('ul.sf-menu').sooperfish();
+    });
+  </script>
+</body>
+</html>
